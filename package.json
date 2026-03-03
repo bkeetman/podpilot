@@ -11,7 +11,8 @@
     "raycast"
   ],
   "icon": "podpilot.png",
-  "author": "raycast",
+  "author": "brian_keetman",
+  "access": "public",
   "categories": [
     "Developer Tools"
   ],
@@ -96,7 +97,7 @@
       "name": "get-jobs",
       "title": "Get Jobs",
       "subtitle": "Kube",
-      "description": "Search jobs",
+      "description": "Search jobs in cluster",
       "icon": "podpilot.png",
       "mode": "view"
     },
@@ -132,14 +133,14 @@
     "lint": "ray lint"
   },
   "dependencies": {
-    "@raycast/api": "^1.95.0",
-    "@raycast/utils": "^1.17.0",
+    "@raycast/api": "^1.104.8",
+    "@raycast/utils": "^1.19.1",
     "execa": "^8.0.1",
-    "react": "^18.3.1"
+    "react": "^19.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.17.57",
-    "@types/react": "^18.3.24",
-    "typescript": "^5.9.3"
+    "@types/react": "^19.0.10",
+    "typescript": "^5.8.2"
   }
 }

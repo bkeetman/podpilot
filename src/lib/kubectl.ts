@@ -108,7 +108,7 @@ export async function runKubectlJson<T>(args: string[], options?: RunKubectlOpti
   }
 }
 
-export function spawnKubectl(args: string[], options?: RunKubectlOptions): ReturnType<typeof execa> {
+export function spawnKubectl(args: string[], options?: RunKubectlOptions) {
   const invocation = resolveInvocation(args, options);
 
   return execa(invocation.command, invocation.args, {

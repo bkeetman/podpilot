@@ -48,7 +48,7 @@ interface PortForwardValues {
   localPort: string;
   remotePort: string;
   openBrowser: boolean;
-  protocol: "http" | "https" | "none";
+  protocol: string;
 }
 
 export function PodDetailView({ context, namespace, pod, onMutated }: PodDetailViewProps) {

@@ -77,7 +77,7 @@ export function DeploymentDetailView({ context, namespace, deployment, onMutated
             />
             <Action.Push
               title="Rollout Status"
-              icon={Icon.Pulse}
+              icon={Icon.ArrowClockwise}
               target={
                 <CommandOutputDetail
                   title={`Rollout Status: ${name}`}

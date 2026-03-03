@@ -140,7 +140,7 @@ export function DeploymentWorkspaceView({ context, namespace, deployment, onMuta
 
         <List.Item
           title="Rollout Status"
-          icon={Icon.Pulse}
+          icon={Icon.ArrowClockwise}
           subtitle="kubectl rollout status"
           actions={
             <ActionPanel>
