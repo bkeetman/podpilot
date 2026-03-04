@@ -10,7 +10,7 @@
 type ExtensionPreferences = {
   /** kubectl Path - Absolute path or command name for kubectl */
   "kubectlPath": string,
-  /** aws Path - Absolute path or command name for aws (for kube exec plugins such as EKS) */
+  /** AWS Path - Absolute path or command name for aws (for kube exec plugins such as EKS) */
   "awsPath": string,
   /** Terminal App - App used for exec shell and port-forward commands */
   "terminalApp": "terminal" | "iterm",
