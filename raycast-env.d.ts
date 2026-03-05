@@ -13,7 +13,7 @@ type ExtensionPreferences = {
   /** AWS Path - Absolute path or command name for aws (for kube exec plugins such as EKS) */
   "awsPath": string,
   /** Terminal App - App used for exec shell and port-forward commands */
-  "terminalApp": "terminal" | "iterm",
+  "terminalApp": "default" | "terminal" | "iterm",
   /** Preferred Exec Shell - First shell attempted for kubectl exec */
   "execShell": string,
   /** kubectl Timeout (ms) - Default timeout used for kubectl commands */
